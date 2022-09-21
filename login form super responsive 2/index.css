@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: green; */
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    148deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+header {
+  display: flex;
+  padding: 0 2%;
+  justify-content: space-between;
+  align-items: center;
+  /* filter: blur(8px); */
+  background-color: rgba(0, 0, 0, 0.186);
+  height: 8%;
+}
+
+section {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 80px; */
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.186);
+
+  height: 12%;
+}
+
+h3 {
+  /* background-color: red; */
+  color: white;
+  display: inline;
+}
+
+#home-button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 24px;
+}
+
+#form-holder {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+}
+
+p {
+  /* background-color: yellow; */
+  display: inline;
+  font-size: 16px;
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+
+input {
+  border: none;
+  color: white;
+  padding: 16px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 2px solid black;
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.064);
+}
+
+@media only screen and (max-width: 600px) {
+  #form-holder {
+    width: 80%;
+  }
+  .submit-button {
+    background-color: green;
+  }
+  p {
+    display: none;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
